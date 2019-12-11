@@ -1,0 +1,25 @@
+body {
+  font-size: 150%;
+}
+h1 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(100, 69, 202);
+  margin: 0%;
+  text-align: center;
+  padding: 20px 0px;
+}
+h2 {
+  color: rgb(82, 2, 119);
+}
+h3 {
+  margin-right: 200px;
+  float: right;
+}
+.flex-box {
+  margin: 10px 100px;
+  display: flex;
+}
+.one-topic {
+  max-width: 50%;
+  margin: 0 30px;
+}
