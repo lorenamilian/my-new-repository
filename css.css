@@ -16,10 +16,10 @@ h3 {
   float: right;
 }
 .flex-box {
-  margin: 10px 100px;
+  margin: auto;
   display: flex;
 }
 .one-topic {
-  max-width: 50%;
+  width: 50%;
   margin: 0 30px;
 }
