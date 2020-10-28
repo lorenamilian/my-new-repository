@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<title>Lorena Milian Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="css.css">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+  
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large  w3-xxxlarge w3-wide  "> <strong><span class="w3-text-pink w3-opacity">L</span>ORENA</strong>  <span class="w3-hide-medium"> <strong><span class="w3-text-sand" >M</span>ILIAN</strong> </span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT ME</h3>
+  <p class="w3-center"><em>I love creating</em></p>
+  <p>Welcome to my professional portfolio a website made by scratch using HTML, CSS, and some JavaScipt. Here you can find some of my personal projects and work experience. 
+    Compleating a WebSite Development Bootcamp gave me the skills needed for making this website and most importantly the desire to dive into computer programming and build a solid career in this area. <br> <br> Besides learning the fundamentals of website development and design I also learned more advanced concepts of Object-Oriented Programming, Database Management and so much more.
+   After I completed the course and I was sure that coding is my passion, I started at Valencia College where I'm planning to graduate next year with an Associate Degree in Computer Science.
+    
+  </p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+     
+      <img src="my3.png" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>One of the most relevant work experience related to this field was my performance at United Against Poverty as an Office and IT Support Assistant intern. There I had the opportunity to put into practice all the skills I've gained in classes like Computer Maintenance Essential and Network Support at Valencia. <br> <br> I was able to do effective work doing troubleshooting, installing software, testing programs, maintaining system databases, and providing network and any hardware troubleshooting when need it.</p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">Strength Areas</p>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Website Development and Design</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div> <br>
+  <p class="w3-wide"><i class="fa fa-male"></i>Customer Service</p> 
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:95%">95%</div>
+  </div> <br>
+  <p class="w3-wide"><i class="fa fa-cog"></i>IT Support</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+  </div>
+</div>
+
+<div class="w3-row w3-center w3-sand w3-padding-16">
+  <span class="w3-xlarge" >Work Experience </span><br> <br> 
+  <div class="w3-col s4">
+  </div>
+  <div class="w3-col s4">
+    <span class="w3-xlarge">iSpice</span><br>
+    Customer Service Representative
+  </div>
+  <div class="w3-col s4">
+    <span class="w3-xlarge">UP Orlando</span><br>
+    IT Support Assistant
+  </div>
+  <div class="w3-col s4">
+    <span class="w3-xlarge">UP Orlando</span><br>
+    Office Assistant
+  </div>
+</div>
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="portfolio">
+  <h3 class="w3-center">Projects</h3>
+  <p class="w3-center w3-large">Most recent personal work</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="logo.png" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Logo Creator</h3>
+          <p class="w3-opacity">Personal Project</p>
+          <p>Made using HTLM 5, CSS3, JavaScipt, Node.js, Express, and gitHub. As the name suggests is a simple logo creator app whose main purpose is to practice manipulating the DOM and responding to user inputs.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="better-life.png" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Better Life</h3>
+          <p class="w3-opacity">Code Skools</p>
+          <p>Demonstrating the skills and experience gain in web development and design. This is a mobile-friendly app, with a responsive design made by scratch. Uses Passport to authenticate their users and MySQL for the database.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="1.png" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>World Views</h3>
+          <p class="w3-opacity">Code Skools</p>
+          <p>An app made using JavaScript with a Node.js platform. It is a simple flashcard game that covers all the basics about using JavaScript and Object-Oriented Programing at its core. Its responsive and detailed design was focused on the user experience.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="cuba.png" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>Autentica Cuba</h3>
+          <p class="w3-opacity">Personal Project</p>
+          <p>Autentica Cuba is a website prototype that uses APIs to book flights, hotels, and get the latest information about events coming up. It's focused on tourism information, a large cultural background, and advice about visiting Cuba.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- About Section -->
+<div class="w3-container w3-sand" style="padding:128px 16px" id="about" >
+  <h3 class="w3-center">What drives me at work</h3>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Passion</p>
+      <p>I love programming, technology and make others happy</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-refresh w3-spin  w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Personal Development</p>
+      <p>Always challenge me, learn and improve</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Work Ethic</p>
+      <p>Discipline, hard work, and efficiency are essential in my toolkit</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Create</p>
+      <p>Build thinks that has a meaning and purpose</p>
+    </div>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <br>
+  <h3 class="w3-center">Get in touch with me</h3>
+  <p class="w3-center"><em>I'd love your feedback!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Orlando, FL<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +1 321 316 0982<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: lorenaDevelop@gmail.com<br>
+      </div>
+
+
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 ">
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.facebook.com/lorena.milian.35" target=”_blank”><i class="fa fa-facebook-official w3-hover-opacity w3-sepia-max"></i></a>
+    <a href="https://www.pinterest.com/" target=”_blank”><i class="fa fa-pinterest-p w3-hover-opacity w3-sepia-max"></i> </i></a>
+    <a href="https://linkedin.com/in/lorena-milian-5a7528195" target=”_blank”><i class="fa fa-linkedin w3-hover-opacity w3-sepia-max"></i></i></a>
+    <a href="https://twitter.com/" target=”_blank”><i class="fa fa-twitter w3-hover-opacity w3-sepia-max"></i></i></a>
+  </div>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
